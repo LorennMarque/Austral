@@ -70,20 +70,26 @@ nav{
 
 .location{
     display: flex;
+    width: 15%;
 }
 
 .categories{
     display: flex;
-    gap: 10px;
+    width: 55%;
+    margin-right: 90px;
+
 }
 
 .categories p{
-    flex-grow:4;
+    flex-grow:6;
+
 }
 
 .user_account{
     display: flex;
     gap: 10px;
+    width: 22%;
+
 }
 
 .related_searches{
@@ -153,7 +159,7 @@ a{
 
 .filter_btn{
     background-color:#FFFFFF;
-    padding: 20px 10px;
+    padding: 20px 15px;
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -233,4 +239,20 @@ a{
     font-weight: normal;
     font-size: 30px;
     margin-right: 5px;
+}
+
+.star{
+    width: 16px;
+    height: 16px;
+}
+
+.icon-18{
+    width: 18px;
+    height: 18px;
+}
+
+.shadow{
+    box-shadow: 4px 3px 5px -1px rgba(0,0,0,0.09);
+    -webkit-box-shadow: 4px 3px 5px -1px rgba(0,0,0,0.09);
+    -moz-box-shadow: 4px 3px 5px -1px rgba(0,0,0,0.09);
 }
