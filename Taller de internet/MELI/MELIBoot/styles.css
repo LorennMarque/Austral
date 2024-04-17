@@ -1,0 +1,300 @@
+/* #FEE600 Primary */
+/* #EDEDED Background  */
+/* #FFFFFF Searchbar  */
+/* #07A257 Green */
+/* #A413BB to #3C0454 Gradient  */
+/* #3A80F8 blue_accent  */
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #EDEDED;
+}
+
+#navbar{
+    background-color: #FEE600;
+}
+
+.search{
+    background-color:#FFFFFF;
+    width: 42vw;
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    justify-content: space-between;
+    margin-right: 150px;
+    color:gray;
+}
+
+.right_actions{
+    display: flex;
+    align-items: center;
+}
+
+.sponsor_button{
+    background: linear-gradient(to right, #A413BB, #3C0454);
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bolder;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 7px 5px;
+    margin-left: 5px;
+}
+
+.nav_botttomRow{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories{
+    display: flex;
+    width: 55%;
+    margin-right: 90px;
+
+}
+
+.categories p{
+    flex-grow:6;
+
+}
+
+.related_searches{
+    margin: 15px 0;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+#cookies{
+    background-color:#FFFFFF;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    height: 55px;
+    width: 100%;
+    position: absolute;
+    bottom: 1px;
+    color:gray;
+
+}
+
+a{
+    color:#3A80F8;
+}
+
+.action_btn{
+    background-color:#E4EEFA;
+    text-decoration: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.breadcumps{
+    width: 35%;
+    color:gray;
+}
+
+.sort{
+    display: flex;
+    align-items:center;
+}
+
+
+#results{
+    margin-top: 35px;
+    display: flex;
+    gap: 50px;
+}
+
+.left-column{
+    width: 20%;
+}
+
+.filter_buttons{
+    margin-top: 15px;
+}
+
+.filter_btn{
+    background-color:#FFFFFF;
+    padding: 20px 15px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    border-radius:5px;
+    margin-bottom: 10px;
+}
+
+.materials{
+    color:rgb(101, 101, 101);
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.materials p{
+    margin-bottom: 10px;
+}
+
+.amount{
+    color:rgb(151, 149, 149);
+}
+
+.success{
+    color:#07A257;
+    font-weight: bolder;
+}
+
+.small_note{
+    color:gray;
+    font-size: 14px;
+}
+
+
+.right-column{
+    width: 77%;
+    display: flex;
+    gap: 15px;
+}
+
+/* .product_card{
+    background-color:#FFFFFF ;
+    width: 22vw;
+    border-radius:5px;
+    border: 1px gray;
+} */
+
+/* .card_head {
+    border-bottom: 1px solid gray; 
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 25px;
+} */
+
+/* .card_head img {
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+.card_body{
+    padding: 20px 15px;
+} */
+
+.rating{
+    display: flex;
+    align-items: center;
+    color:gray;
+    gap: 5px;
+}
+
+.pricing{
+    display: flex;
+    align-items: center;
+}
+
+.pricing h2{
+    font-weight: normal;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.star{
+    width: 16px;
+    height: 16px;
+}
+
+.map-pin{
+    width: 26px;
+    height: 26px;
+}
+
+.icon-18{
+    width: 18px;
+    height: 18px;
+}
+
+.shadow{
+    box-shadow: 4px 3px 5px -1px rgba(0,0,0,0.09);
+    -webkit-box-shadow: 4px 3px 5px -1px rgba(0,0,0,0.09);
+    -moz-box-shadow: 4px 3px 5px -1px rgba(0,0,0,0.09);
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 438px; /* Reduced by 20% */
+    height: 27.2px; /* Reduced by 20% */
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 48px; /* Reduced by 20% */
+    height: 27.2px; /* Reduced by 20% */
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%; /* Ensuring roundness is maintained */
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 21.6px; /* Reduced by 20% */
+    width: 21.6px; /* Reduced by 20% */
+    left: 4px;
+    bottom: 3.6px; /* Adjusted slightly for better alignment */
+    background-color: white;
+    border:1px solid #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(21.6px); /* Adjusted according to new size */
+    -ms-transform: translateX(21.6px); /* Adjusted according to new size */
+    transform: translateX(21.6px); /* Adjusted according to new size */
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 27.2px; /* Adjusted according to new size */
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
