@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><b>Netflics</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#movies">Películas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#series">Series</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="banner.jpg" class="d-none d-lg-block w-100 img-fluid" alt="Large Screen Image">
+            <img src="portair.jpg" class="d-block d-lg-none w-100 img-fluid" alt="Regular Screen Image">
+          </div>
+          <div class="carousel-item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages2.fanpop.com%2Fimage%2Fphotos%2F12800000%2FInception-Banner-inception-2010-12831726-2000-919.jpg&f=1&nofb=1&ipt=4d64d176ab1744eb215440c09e53b65ff1412d6c1142a5a393ce9f7ac9b22c1f&ipo=images" class="d-none d-lg-block w-100 img-fluid" alt="Large Screen Image">
+            <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-xFYEth1IzNg%2FT7aRDDExXfI%2FAAAAAAAABxs%2FUUKfDL0Tgw0%2Fs1600%2Finception-poster.jpg&f=1&nofb=1&ipt=6e81637733bcc10e60ed8b5d318766fc338168ec138363b04ec06a9026fe72db&ipo=images" class="d-block d-lg-none w-100 img-fluid" alt="Regular Screen Image">
+          </div>
+          <div class="carousel-item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-yjqHZ6yjTRM%2FWd46W6eM6nI%2FAAAAAAABzyA%2FK_yhCCQrwTkFZmGz4KGOPJDPRyvOCQRMACLcBGAs%2Fs1600%2Fblade-runner-2049-banner-poster-5.jpg&f=1&nofb=1&ipt=49291733d538351cfdb074c54fc29f4a0858c72eb529765ec6f60f353a698d75&ipo=images" class="d-none d-lg-block w-100 img-fluid seriesImg" alt="Large Screen Image">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F5EuXvLuNVIVsYDa3d4VrPtnBy5.jpg&f=1&nofb=1&ipt=c67c3db9514292624e2aebdb50feefe0b0ab9d5cec1ab029c36e941cb66ecdae&ipo=images" class="d-block d-lg-none w-100 img-fluid" alt="Regular Screen Image">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container pt-5 pb-2">
+        <h2 class="display-4">Películas</h2>
+        <div id="movies">
+            <div class="card" style="width: 18rem;">
+                <img src="portair.jpg" class="card-img-top img-fluid" alt="portair.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="movie.html" class="btn btn-primary">Ver Ahora</a>
+                  <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="thumbs-up"></i></a>
+                  <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="plus"></i></a>
+                </div>
+              </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-H57vRpipBhs%2FT92h_GLMFAI%2FAAAAAAAAAAc%2FzLYxoSfXv9w%2Fs1600%2Favatar_movie_poster_final_01.jpg&f=1&nofb=1&ipt=c64d26dfb97c43897324713d9a2dfd272b193ed2dbed6d7afa0ef7504277bf68&ipo=images" class="card-img-top img-fluid" alt="portair.jpg">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="movie.html" class="btn btn-primary">Ver Ahora</a>
+                      <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="thumbs-up"></i></a>
+                      <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="plus"></i></a>
+                    </div>
+                  </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Foriginalvintagemovieposters.com%2Fwp-content%2Fuploads%2F2019%2F05%2FVIEW-TO-A-KILL-8250-1.jpg&f=1&nofb=1&ipt=1b985f43befdcecb58b2dfd2290f309bfff3c3b72daff5e6cc18acd1cb729925&ipo=images" class="card-img-top img-fluid" alt="portair.jpg">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="movie.html" class="btn btn-primary">Ver Ahora</a>
+                      <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="thumbs-up"></i></a>
+                      <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="plus"></i></a>
+                    </div>
+                  </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgraphicdesignjunction.com%2Fwp-content%2Fuploads%2F2012%2F05%2Flarge%2Fmovie-poster-20.jpg&f=1&nofb=1&ipt=a97b8fc51efc8bbb1ce917fbe59eeaa1b611dd2273f96a86850f197070a6f6c7&ipo=images" class="card-img-top img-fluid" alt="portair.jpg">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="movie.html" class="btn btn-primary">Ver Ahora</a>
+                      <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="thumbs-up"></i></a>
+                      <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="plus"></i></a>
+                    </div>
+            </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcollider.com%2Fwp-content%2Fuploads%2F2017%2F06%2Fus-poster.jpg&f=1&nofb=1&ipt=a5c545c56cdd632e3e0d6b5ac75c353c36bdca904d9665495bac6f00ab537d52&ipo=images" class="card-img-top img-fluid" alt="portair.jpg">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="movie.html" class="btn btn-primary">Ver Ahora</a>
+                      <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="thumbs-up"></i></a>
+                      <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="plus"></i></a>
+                    </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets-global.website-files.com%2F6009ec8cda7f305645c9d91b%2F6408f6e7b5811271dc883aa8_batman-min.png&f=1&nofb=1&ipt=146fc15235393d239cfc5f6941ec6d34899f46fb4c8fa3801f702b82c66288bd&ipo=images" class="card-img-top img-fluid" alt="portair.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="movie.html" class="btn btn-primary">Ver Ahora</a>
+                  <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="thumbs-up"></i></a>
+                  <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="plus"></i></a>
+                </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://wallpapercave.com/wp/wp1945933.jpg" class="card-img-top img-fluid" alt="portair.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="movie.html" class="btn btn-primary">Ver Ahora</a>
+              <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="thumbs-up"></i></a>
+              <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="plus"></i></a>
+            </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.washingtonpost.com%2Fgraphics%2F2019%2Fentertainment%2Foscar-nominees-movie-poster-design%2Fimg%2Fbohemian-rhapsody-web.jpg&f=1&nofb=1&ipt=b55d10687cb33b89347d76082997b9b160d01e91eb0da9bc55a0324e17b32d04&ipo=images" class="card-img-top img-fluid" alt="portair.jpg">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="movie.html" class="btn btn-primary">Ver Ahora</a>
+          <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="thumbs-up"></i></a>
+          <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="plus"></i></a>
+        </div>
+</div>
+<div class="card" style="width: 18rem;">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2017%2F09%2F15%2Farts%2F24movie-posters8%2F24movie-posters8-master1050.jpg&f=1&nofb=1&ipt=e137778848223440acd860f2ee68051733518323541649469882737d9fa3381f&ipo=images " class="card-img-top img-fluid" alt="portair.jpg">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="movie.html" class="btn btn-primary">Ver Ahora</a>
+      <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="thumbs-up"></i></a>
+      <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="plus"></i></a>
+    </div>
+</div>
+            <a href="#" class="btn btn-secondary text-center p-3 ver-todo d-flex justify-content-center align-items-center"><span>See All <i data-feather="arrow-right"></i></span></a>
+        </div>
+            <h2 class="display-4 mt-5 pb-2">Series</h2>
+            <div id="series">
+                <div class="card mb-3 ">
+                    <div class="row g-0 align-items-center">
+                      <div class="col-md-4">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.mubi.com%2Fimages%2Fnotebook%2Fpost_images%2F19893%2Fimages-w1400.jpg%3F1449196747&f=1&nofb=1&ipt=025cba8ecaaabdba6fcec385967fa5470e2753d446fd2ae2333164781987611c&ipo=images" class="img-fluid rounded-start seriesImg" alt="portair.jpg">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                          <a href="movie.html" class="btn btn-primary">Ver Ahora</a>
+                          <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="thumbs-up"></i></a>
+                          <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="plus"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card mb-3 ">
+                    <div class="row g-0 align-items-center">
+                      <div class="col-md-4">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpreview.redd.it%2F8gkj5vaggwg61.jpg%3Fauto%3Dwebp%26s%3Ddbf5c3ac94564de0b6f489a3e4e77374ab2ebd26&f=1&nofb=1&ipt=f81b034fb2b8d4427a7057a96a822e0da123ce7716edf0c54cfeaa6d2176716d&ipo=images" class="img-fluid rounded-start seriesImg" alt="portair.jpg">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                          <a href="movie.html" class="btn btn-primary">Ver Ahora</a>
+                          <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="thumbs-up"></i></a>
+                          <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="plus"></i></a>
+                        </div>
+                      </div>
+                    </div>
+            </div>  
+            <div class="card mb-3 ">
+                <div class="row g-0 align-items-center">
+                  <div class="col-md-4">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffr.web.img5.acsta.net%2Fpictures%2F18%2F11%2F05%2F18%2F04%2F4981046.jpg&f=1&nofb=1&ipt=54945ab7e1ed67aeb6131a2a5a7b336841b19913172aee4ffb33713067238f15&ipo=images" class="img-fluid rounded-start seriesImg" alt="portair.jpg">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                      <a href="movie.html" class="btn btn-primary">Ver Ahora</a>
+                      <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="thumbs-up"></i></a>
+                      <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="plus"></i></a>
+                    </div>
+                  </div>
+                </div>
+        </div>  
+        <div class="card mb-3 ">
+            <div class="row g-0 align-items-center">
+              <div class="col-md-4">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F67%2F5e%2Fbc%2F675ebc2fd210a8bd5362928a51514960.jpg&f=1&nofb=1&ipt=e1be74c91049f1043bbb34190d6a0f7aa53407f8f97c0ce89b655ff839db4e22&ipo=images" class="img-fluid rounded-start seriesImg" alt="portair.jpg">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  <a href="movie.html" class="btn btn-primary">Ver Ahora</a>
+                  <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="thumbs-up"></i></a>
+                  <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="plus"></i></a>
+                </div>
+              </div>
+            </div>
+    </div>  
+    <div class="card mb-3 ">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-4">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.themoviedb.org%2Ft%2Fp%2Foriginal%2FqZSUJmUWdkdND1DpQ4bGCraqDxy.jpg&f=1&nofb=1&ipt=ca8bfb0d54c1cc52b43d01e5a8f7e6b132c88005f06d231ff489cbb7a44342ae&ipo=images" class="img-fluid rounded-start seriesImg" alt="portair.jpg">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              <a href="movie.html" class="btn btn-primary">Ver Ahora</a>
+              <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="thumbs-up"></i></a>
+              <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="plus"></i></a>
+            </div>
+          </div>
+        </div>
+</div>  
+<div class="card mb-3 ">
+    <div class="row g-0 align-items-center">
+      <div class="col-md-4">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmovieplayer.net-cdn.it%2Ft%2Fimages%2F2022%2F11%2F22%2Fnetflix-treason-limited-series_jpg_1400x0_crop_q85.jpg&f=1&nofb=1&ipt=3a793667a41dda0f0007e9c3ce66e976123bb1b94beb8c61b497286c3b6b062a&ipo=images" class="img-fluid rounded-start seriesImg" alt="portair.jpg">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <a href="movie.html" class="btn btn-primary">Ver Ahora</a>
+          <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="thumbs-up"></i></a>
+          <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="plus"></i></a>
+        </div>
+      </div>
+    </div>
+</div>  
+<div class="card mb-3 ">
+    <div class="row g-0 align-items-center">
+      <div class="col-lg-4">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.tvmaze.com%2Fuploads%2Fimages%2Foriginal_untouched%2F448%2F1121792.jpg&f=1&nofb=1&ipt=01377ea268574b7ffe40f553558519d39c3a9693e1f4e57bbfb436ccc0a52268&ipo=images" class="img-fluid rounded-start seriesImg" alt="portair.jpg">
+      </div>
+      <div class="col-lg-8">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <a href="movie.html" class="btn btn-primary">Ver Ahora</a>
+          <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="thumbs-up"></i></a>
+          <a href="#" class="btn btn-outline-dark rounded-circle p-2"> <i data-feather="plus"></i></a>
+        </div>
+      </div>
+    </div>
+</div>  
+<a href="#" class="btn btn-secondary text-center p-3 ver-todo d-flex justify-content-center align-items-center"><span>See All <i data-feather="arrow-right"></i></span></a>
+
+        </div>
+        <script>
+            feather.replace();
+          </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
