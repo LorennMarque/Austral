@@ -4,6 +4,8 @@
     /* min-height: 65vh; */
     overflow-x: scroll;
     padding: 5px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 #movies .card, #series .card{
@@ -23,7 +25,7 @@
 }
 
 #series .card{
-    width:30%;
+    width: 40%;
     font-size:larger;
     height: 250px;
 }
