@@ -23,11 +23,9 @@
 }
 
 #series .card{
-    width:40%
-}
-
-.movImagePart{
-    
+    width:30%;
+    font-size:larger;
+    height: 250px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -38,5 +36,9 @@
     
     #series .card{
         width:60%
+    }
+
+    #series{
+        height: 70vh;
     }
   }
